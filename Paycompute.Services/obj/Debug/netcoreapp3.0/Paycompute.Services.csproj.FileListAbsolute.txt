@@ -11,3 +11,16 @@ G:\.NET Core\Paycompute\Paycompute.Services\obj\Debug\netcoreapp3.0\Paycompute.S
 G:\.NET Core\Paycompute\Paycompute.Services\obj\Debug\netcoreapp3.0\Paycompute.Services.pdb
 G:\.NET Core\Paycompute\Paycompute.Services\bin\Debug\netcoreapp3.0\Paycompute.Persistence.dll
 G:\.NET Core\Paycompute\Paycompute.Services\bin\Debug\netcoreapp3.0\Paycompute.Persistence.pdb
+G:\.NET Core\PaycomputeApp\Paycompute.Services\bin\Debug\netcoreapp3.0\Paycompute.Services.deps.json
+G:\.NET Core\PaycomputeApp\Paycompute.Services\bin\Debug\netcoreapp3.0\Paycompute.Services.dll
+G:\.NET Core\PaycomputeApp\Paycompute.Services\bin\Debug\netcoreapp3.0\Paycompute.Services.pdb
+G:\.NET Core\PaycomputeApp\Paycompute.Services\bin\Debug\netcoreapp3.0\Paycompute.Entity.dll
+G:\.NET Core\PaycomputeApp\Paycompute.Services\bin\Debug\netcoreapp3.0\Paycompute.Persistence.dll
+G:\.NET Core\PaycomputeApp\Paycompute.Services\bin\Debug\netcoreapp3.0\Paycompute.Entity.pdb
+G:\.NET Core\PaycomputeApp\Paycompute.Services\bin\Debug\netcoreapp3.0\Paycompute.Persistence.pdb
+G:\.NET Core\PaycomputeApp\Paycompute.Services\obj\Debug\netcoreapp3.0\Paycompute.Services.csprojAssemblyReference.cache
+G:\.NET Core\PaycomputeApp\Paycompute.Services\obj\Debug\netcoreapp3.0\Paycompute.Services.AssemblyInfoInputs.cache
+G:\.NET Core\PaycomputeApp\Paycompute.Services\obj\Debug\netcoreapp3.0\Paycompute.Services.AssemblyInfo.cs
+G:\.NET Core\PaycomputeApp\Paycompute.Services\obj\Debug\netcoreapp3.0\Paycompute.Services.csproj.CopyComplete
+G:\.NET Core\PaycomputeApp\Paycompute.Services\obj\Debug\netcoreapp3.0\Paycompute.Services.dll
+G:\.NET Core\PaycomputeApp\Paycompute.Services\obj\Debug\netcoreapp3.0\Paycompute.Services.pdb

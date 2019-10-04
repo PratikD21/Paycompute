@@ -4971,11 +4971,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\.NET Core\\Paycompute\\Paycompute.Services\\Paycompute.Services.csproj",
+      "projectUniqueName": "G:\\.NET Core\\PaycomputeApp\\Paycompute.Services\\Paycompute.Services.csproj",
       "projectName": "Paycompute.Services",
-      "projectPath": "G:\\.NET Core\\Paycompute\\Paycompute.Services\\Paycompute.Services.csproj",
+      "projectPath": "G:\\.NET Core\\PaycomputeApp\\Paycompute.Services\\Paycompute.Services.csproj",
       "packagesPath": "C:\\Users\\PRATIK\\.nuget\\packages\\",
-      "outputPath": "G:\\.NET Core\\Paycompute\\Paycompute.Services\\obj\\",
+      "outputPath": "G:\\.NET Core\\PaycomputeApp\\Paycompute.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -4996,11 +4996,11 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "G:\\.NET Core\\Paycompute\\Paycompute.Entity\\Paycompute.Entity.csproj": {
-              "projectPath": "G:\\.NET Core\\Paycompute\\Paycompute.Entity\\Paycompute.Entity.csproj"
+            "G:\\.NET Core\\PaycomputeApp\\Paycompute.Entity\\Paycompute.Entity.csproj": {
+              "projectPath": "G:\\.NET Core\\PaycomputeApp\\Paycompute.Entity\\Paycompute.Entity.csproj"
             },
-            "G:\\.NET Core\\Paycompute\\Paycompute.Persistence\\Paycompute.Persistence.csproj": {
-              "projectPath": "G:\\.NET Core\\Paycompute\\Paycompute.Persistence\\Paycompute.Persistence.csproj"
+            "G:\\.NET Core\\PaycomputeApp\\Paycompute.Persistence\\Paycompute.Persistence.csproj": {
+              "projectPath": "G:\\.NET Core\\PaycomputeApp\\Paycompute.Persistence\\Paycompute.Persistence.csproj"
             }
           }
         }

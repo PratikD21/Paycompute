@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\.NET Core\\Paycompute\\Paycompute.Entity\\Paycompute.Entity.csproj",
+      "projectUniqueName": "G:\\.NET Core\\PaycomputeApp\\Paycompute.Entity\\Paycompute.Entity.csproj",
       "projectName": "Paycompute.Entity",
-      "projectPath": "G:\\.NET Core\\Paycompute\\Paycompute.Entity\\Paycompute.Entity.csproj",
+      "projectPath": "G:\\.NET Core\\PaycomputeApp\\Paycompute.Entity\\Paycompute.Entity.csproj",
       "packagesPath": "C:\\Users\\PRATIK\\.nuget\\packages\\",
-      "outputPath": "G:\\.NET Core\\Paycompute\\Paycompute.Entity\\obj\\",
+      "outputPath": "G:\\.NET Core\\PaycomputeApp\\Paycompute.Entity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
