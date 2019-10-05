@@ -208,3 +208,4 @@ G:\.NET Core\PaycomputeApp\Paycompute\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.
 G:\.NET Core\PaycomputeApp\Paycompute\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 G:\.NET Core\PaycomputeApp\Paycompute\obj\Debug\netcoreapp3.0\Paycompute.MvcApplicationPartsAssemblyInfo.cs
 G:\.NET Core\PaycomputeApp\Paycompute\obj\Debug\netcoreapp3.0\Paycompute.MvcApplicationPartsAssemblyInfo.cache
+G:\.NET Core\PaycomputeApp\Paycompute\obj\Debug\netcoreapp3.0\Razor\Views\Employee\Index.cshtml.g.cs
