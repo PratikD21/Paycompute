@@ -209,3 +209,7 @@ G:\.NET Core\PaycomputeApp\Paycompute\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.
 G:\.NET Core\PaycomputeApp\Paycompute\obj\Debug\netcoreapp3.0\Paycompute.MvcApplicationPartsAssemblyInfo.cs
 G:\.NET Core\PaycomputeApp\Paycompute\obj\Debug\netcoreapp3.0\Paycompute.MvcApplicationPartsAssemblyInfo.cache
 G:\.NET Core\PaycomputeApp\Paycompute\obj\Debug\netcoreapp3.0\Razor\Views\Employee\Index.cshtml.g.cs
+G:\.NET Core\PaycomputeApp\Paycompute\obj\Debug\netcoreapp3.0\Razor\Views\Employee\Create.cshtml.g.cs
+G:\.NET Core\PaycomputeApp\Paycompute\obj\Debug\netcoreapp3.0\Razor\Views\Employee\Edit.cshtml.g.cs
+G:\.NET Core\PaycomputeApp\Paycompute\obj\Debug\netcoreapp3.0\Razor\Views\Employee\Detail.cshtml.g.cs
+G:\.NET Core\PaycomputeApp\Paycompute\obj\Debug\netcoreapp3.0\Razor\Views\Employee\Delete.cshtml.g.cs
