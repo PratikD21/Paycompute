@@ -31,7 +31,7 @@ namespace Paycompute.Services.Implementation
             return contractualEarnings;
         }
 
-        public async Task CreateAsyn(PaymentRecord paymentRecord)
+        public async Task CreateAsync(PaymentRecord paymentRecord)
         {
             await _context.PaymentRecords.AddAsync(paymentRecord);
             await _context.SaveChangesAsync();
@@ -74,5 +74,8 @@ namespace Paycompute.Services.Implementation
             tax + nic + studentLoanRepayment + unionFees;
 
         public decimal TotalEarnings(decimal overtimeEarnings, decimal contractualEarnings) => overtimeEarnings + contractualEarnings;
+
+        public TaxYear GetTaxYearById(int id)
+            => _context.TaxYears.Where(year => year.Id == id).FirstOrDefault();
     }
 }

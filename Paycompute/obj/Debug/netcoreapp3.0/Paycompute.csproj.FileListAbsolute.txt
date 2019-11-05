@@ -213,3 +213,8 @@ G:\.NET Core\PaycomputeApp\Paycompute\obj\Debug\netcoreapp3.0\Razor\Views\Employ
 G:\.NET Core\PaycomputeApp\Paycompute\obj\Debug\netcoreapp3.0\Razor\Views\Employee\Edit.cshtml.g.cs
 G:\.NET Core\PaycomputeApp\Paycompute\obj\Debug\netcoreapp3.0\Razor\Views\Employee\Detail.cshtml.g.cs
 G:\.NET Core\PaycomputeApp\Paycompute\obj\Debug\netcoreapp3.0\Razor\Views\Employee\Delete.cshtml.g.cs
+G:\.NET Core\PaycomputeApp\Paycompute\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.JsonPatch.dll
+G:\.NET Core\PaycomputeApp\Paycompute\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+G:\.NET Core\PaycomputeApp\Paycompute\bin\Debug\netcoreapp3.0\Microsoft.DotNet.PlatformAbstractions.dll
+G:\.NET Core\PaycomputeApp\Paycompute\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyModel.dll
+G:\.NET Core\PaycomputeApp\Paycompute\bin\Debug\netcoreapp3.0\Newtonsoft.Json.Bson.dll

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Paycompute.Entity;
 using Paycompute.Persistence;
 
@@ -12,6 +13,7 @@ namespace Paycompute.Services.Implementation
     {
         private readonly ApplicationDbContext _context;
         private decimal studentLoanAmount;
+        private decimal fee;
 
         public EmployeeService(ApplicationDbContext context)
         {
@@ -75,9 +77,25 @@ namespace Paycompute.Services.Implementation
 
         public decimal UnionFees(int id)
         {
-            throw new NotImplementedException();
+            var employee = GetById(id);
+            if (employee.UnionMember == UnionMember.Yes)
+            {
+                fee = 10m;
+            }
+            else
+            {
+                fee = 0;
+            }
+            return fee;
         }
 
-       
+        public IEnumerable<SelectListItem> GetAllEmployeesForPayoll()
+        {
+            return GetAll().Select(emp => new SelectListItem()
+            {
+                Text = emp.FullName,
+                Value = emp.Id.ToString()
+            });
+        }
     }
 }
