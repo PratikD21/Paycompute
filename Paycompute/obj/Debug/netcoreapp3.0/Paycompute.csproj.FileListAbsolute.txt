@@ -206,8 +206,6 @@ G:\.NET Core\PaycomputeApp\Paycompute\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeA
 G:\.NET Core\PaycomputeApp\Paycompute\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 G:\.NET Core\PaycomputeApp\Paycompute\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 G:\.NET Core\PaycomputeApp\Paycompute\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-G:\.NET Core\PaycomputeApp\Paycompute\obj\Debug\netcoreapp3.0\Paycompute.MvcApplicationPartsAssemblyInfo.cs
-G:\.NET Core\PaycomputeApp\Paycompute\obj\Debug\netcoreapp3.0\Paycompute.MvcApplicationPartsAssemblyInfo.cache
 G:\.NET Core\PaycomputeApp\Paycompute\obj\Debug\netcoreapp3.0\Razor\Views\Employee\Index.cshtml.g.cs
 G:\.NET Core\PaycomputeApp\Paycompute\obj\Debug\netcoreapp3.0\Razor\Views\Employee\Create.cshtml.g.cs
 G:\.NET Core\PaycomputeApp\Paycompute\obj\Debug\netcoreapp3.0\Razor\Views\Employee\Edit.cshtml.g.cs
@@ -218,3 +216,12 @@ G:\.NET Core\PaycomputeApp\Paycompute\bin\Debug\netcoreapp3.0\Microsoft.AspNetCo
 G:\.NET Core\PaycomputeApp\Paycompute\bin\Debug\netcoreapp3.0\Microsoft.DotNet.PlatformAbstractions.dll
 G:\.NET Core\PaycomputeApp\Paycompute\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyModel.dll
 G:\.NET Core\PaycomputeApp\Paycompute\bin\Debug\netcoreapp3.0\Newtonsoft.Json.Bson.dll
+G:\.NET Core\PaycomputeApp\Paycompute\obj\Debug\netcoreapp3.0\Razor\Views\Pay\Index.cshtml.g.cs
+G:\.NET Core\PaycomputeApp\Paycompute\obj\Debug\netcoreapp3.0\Razor\Views\Pay\Create.cshtml.g.cs
+G:\.NET Core\PaycomputeApp\Paycompute\obj\Debug\netcoreapp3.0\Razor\Views\Pay\Detail.cshtml.g.cs
+G:\.NET Core\PaycomputeApp\Paycompute\obj\Debug\netcoreapp3.0\Razor\Views\Pay\Payslip.cshtml.g.cs
+G:\.NET Core\PaycomputeApp\Paycompute\obj\Debug\netcoreapp3.0\Paycompute.MvcApplicationPartsAssemblyInfo.cs
+G:\.NET Core\PaycomputeApp\Paycompute\obj\Debug\netcoreapp3.0\Paycompute.MvcApplicationPartsAssemblyInfo.cache
+G:\.NET Core\PaycomputeApp\Paycompute\bin\Debug\netcoreapp3.0\WkHtmlToPdf\wkhtmltoimage.exe
+G:\.NET Core\PaycomputeApp\Paycompute\bin\Debug\netcoreapp3.0\WkHtmlToPdf\wkhtmltopdf.exe
+G:\.NET Core\PaycomputeApp\Paycompute\bin\Debug\netcoreapp3.0\RotativaCore.dll

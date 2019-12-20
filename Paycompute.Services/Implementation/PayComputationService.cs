@@ -11,9 +11,10 @@ namespace Paycompute.Services.Implementation
 {
     public class PayComputationService : IPayComputationService
     {
-        private readonly ApplicationDbContext _context;
         private decimal contractualEarnings;
         private decimal overtimeHours;
+        private readonly ApplicationDbContext _context;
+
         public PayComputationService(ApplicationDbContext context)
         {
             _context = context;
@@ -39,6 +40,7 @@ namespace Paycompute.Services.Implementation
 
         public IEnumerable<PaymentRecord> GetAll() => _context.PaymentRecords.OrderBy(p => p.EmployeeId);
 
+
         public IEnumerable<SelectListItem> GetAllTaxYear()
         {
             var allTaxYear = _context.TaxYears.Select(taxYears => new SelectListItem
@@ -49,15 +51,20 @@ namespace Paycompute.Services.Implementation
             return allTaxYear;
         }
 
-        public PaymentRecord GetById(int id) => _context.PaymentRecords.Where(pay => pay.Id == id).FirstOrDefault();
+        public PaymentRecord GetById(int id) =>
+            _context.PaymentRecords.Where(pay => pay.Id == id).FirstOrDefault();
 
-        public decimal NetPay(decimal totalEarnings, decimal totalDeduction) => totalEarnings - totalDeduction;
 
-        public decimal OvertimeEarnings(decimal overtimeRate, decimal overtimeHours) => overtimeHours * overtimeRate;
+        public decimal NetPay(decimal totalEarnings, decimal totalDeduction)
+            => totalEarnings - totalDeduction;
+
+
+        public decimal OvertimeEarnings(decimal overtimeRate, decimal overtimeHours)
+            => overtimeHours * overtimeRate;
 
         public decimal OvertimeHours(decimal hoursWorked, decimal contractualHours)
         {
-            if (hoursWorked < contractualHours)
+            if (hoursWorked <= contractualHours)
             {
                 overtimeHours = 0.00m;
             }
@@ -70,12 +77,13 @@ namespace Paycompute.Services.Implementation
 
         public decimal OvertimeRate(decimal hourlyRate) => hourlyRate * 1.5m;
 
-        public decimal TotalDeduction(decimal tax, decimal nic, decimal studentLoanRepayment, decimal unionFees) =>
-            tax + nic + studentLoanRepayment + unionFees;
+        public decimal TotalDeduction(decimal tax, decimal nic, decimal studentLoanRepayment, decimal unionFees)
+        => tax + nic + studentLoanRepayment + unionFees;
 
-        public decimal TotalEarnings(decimal overtimeEarnings, decimal contractualEarnings) => overtimeEarnings + contractualEarnings;
+        public decimal TotalEarnings(decimal overtimeEarnings, decimal contractualEarnings)
+        => overtimeEarnings + contractualEarnings;
 
         public TaxYear GetTaxYearById(int id)
-            => _context.TaxYears.Where(year => year.Id == id).FirstOrDefault();
+        => _context.TaxYears.Where(year => year.Id == id).FirstOrDefault();
     }
 }
